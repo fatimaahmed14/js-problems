@@ -1,6 +1,6 @@
 function cubesOfNumbers(array) {
     let sumOfCubes = 0
-    array.forEach(number => sumOfCubes += number ** 3)
+    array.forEach(item => sumOfCubes += item ** 3)
     return sumOfCubes
 } 
 
